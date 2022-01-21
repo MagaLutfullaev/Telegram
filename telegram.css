@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #292929;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #292929;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #292929;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #292929;
+}
+ 
+.btn {
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.ava {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: #303030;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #292929;
+}
+
+
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.profil {
+    display: flex;
+}
+.name {
+    padding: 0 5px;
+    color: #292929;
+    font-size: 25px;
+}
+.menu {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.menu span {
+    width: 90%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #303030;
+}
+
+.left {
+    display: flex;
+    flex-direction: column; 
+    width: 200px;
+    background-color: #07B5DB;
+    padding: 0;
+}
+.left_inner {
+    height: 712px;
+    overflow: hidden;
+    padding: 5px;
+    overflow-y: scroll;
+}
+.left_item {
+    display: flex;
+    align-items: center;
+    width: 189px;
+    height: 40px;
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.left_item:first-of-type {
+    margin-top: 20px;
+}
+.left_name {
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #07B5DB;
+}
+
+
+.chat {
+    background-color: #303030;
+    width: 100%;
+}
+.chat_inner { 
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+.chat_item {
+    width: 100%;
+    height: 712px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.chat_left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.chat_item_l {
+    min-height: 55px;
+    width: 300px;
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.chat_block {
+    display: flex;
+    justify-content: space-between;
+}
+.chat_block2 {
+    display: flex;
+    justify-content: start;
+}
+.chat_name {
+    color: #07B5DB;
+    font-weight: 400;
+}
+.chat_text {
+    font-size: 20px;
+    color: #07B5DB;
+    padding: 0 5px;
+}
+
+.chat_time {
+    color: #07B5DB;
+    font-size: 13px;
+}
+
+
+.chat_right {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.chat_item_r {
+    min-height: 55px;
+    width: 300px;
+    background-color: #07B5DB;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.chat_block_r {
+    display: flex;
+    justify-content: end;
+}
+.chat_name_r {
+    color: #303030;
+    font-weight: 400;
+}
+.chat_text_r {
+    font-size: 20px;
+    color: #303030;
+    padding: 0 5px;
+}
+.chat_time_r {
+    color: #303030;
+    font-size: 13px;
+}
+
+.chat_search_inner {
+    padding: 5px;
+}
+.chat_item_input {
+    width: 300px;
+    background-color: #07B5DB;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 0 0 5px 5px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    color: #292929;
+}
+.input_btn {
+    background-color: #292929;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #07B5DB;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-color: #292929;
+    width: 100%;
+    height: 100px;
+}
+
